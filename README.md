@@ -1,3 +1,6 @@
+centos 7 安装之前执行  yum install jemalloc jemalloc-devel -y  
+
+
 # nginx-cdn
 CentOS一键安装Nginx
 
