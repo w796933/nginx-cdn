@@ -19,7 +19,7 @@ function check_os(){
 	#CentOS
 	if test -e "/etc/redhat-release"
 		then
-		yum -y install gcc gcc-c++ perl unzip
+		yum -y install gcc gcc-c++ perl unzip jemalloc jemalloc-devel
 	#Debian
 	elif test -e "/etc/debian_version"
 		then
